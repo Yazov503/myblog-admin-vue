@@ -1,0 +1,49 @@
+#admin-dashboard {
+  height: 100vh;
+  display: flex;
+}
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.el-menu-vertical-demo {
+  background-color: #333;
+}
+.el-menu-item.is-active {
+  background-color: #1f2d3d;
+}
+.el-menu-item.is-active:hover {
+  background-color: #1f2d3d;
+}
+.el-container {
+  height: 100%;
+  display: flex;
+}
+.el-main {
+  flex: 1;
+}
+.header {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.el-menu {
+  border-right: 0;
+}
+.el-menu-item {
+  background-color: #333;
+  color: #fff;
+}
+.el-menu-item:hover {
+  background-color: #666;
+}
+.el-submenu /deep/ .el-submenu__title {
+  background-color: #333;
+}
+.el-submenu /deep/ .el-submenu__title:hover {
+  background-color: #666;
+}
